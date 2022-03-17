@@ -1,0 +1,36 @@
+justify-content: flex-start --- all elements will align at the start of the main axis 
+
+
+justify-content: flex-center --- all elements will align in the center of the main axis
+
+justify-content: space-between --- all the extra space inside of the flex container will be put evenly between all of the different items inside of our container 
+
+justify-content: space-around --- puts even amount of space around all items and not just in between items 
+
+align-items: start --- all items will align themselves at the top of the flexbox container
+
+align-items: center --- all items will align themselves in the center of the veritcal axis 
+
+align-content: center --- multiline flexbox containers
+
+flex-wrap:wrap---- items will wrap onto different lines
+
+align-content: flex-start --- items will align at the start of the container (top)
+
+align-content: flex-end --- items will align at the end of the container (bottom)
+
+flex-direction: column --- align items into columns 
+
+justify-content: center --- align items in the center vertically 
+
+align-items: center --- align items in the center horizontally
+
+flex-shrink: 0; --- item does not shrink at all no matter how small the browser gets 
+
+flex-grow: 1 --- item will take up all the extra space no matter what size the browser is 
+
+flex-grow --- takes all of the leftover space and divides between all of the different flex grows 
+
+order: --- allows us to change the order of our flexbox items within the container without needing to change the order in the html 
+
+shorthand for (grow,shrink,basis) is the "flex" property --- flex: 1 0 0px(first number is flex grow, second number is flex shrink, and last number is flex basis )
